@@ -1,0 +1,148 @@
+#AULA 2 CURSO DATA SCIENCE - MODULO LOGICA DE PROGRAMACAO PRO
+
+ turno1 = str(input('Qual seu turno?'))
+
+if turno1 == 'M':
+    print('Bom dia')
+elif turno1 == 'V':
+    print('Boa tarde')
+elif turno1 == 'N':
+    print('Boa noite')
+
+# num1 = float(input('Digite o num1: '))
+# num2 = float(input('Digite o num2: '))
+# num3 = float(input('Digite o num3: '))
+
+# if num1>num2 and num1>num3 and num2>num3:
+#     print(f'{num1}, {num2}, {num3}')
+# elif num1>num2 and num1>num3 and num3>num2:
+#     print(f'{num1}, {num3}, {num2}')    
+# elif num2>num1 and num2>num3 and num1>num3:
+#     print(f'{num2}, {num1}, {num3}')
+# elif num2>num1 and num2>num3 and num3>num1:
+#     print(f'{num2}, {num3}, {num1}')
+# elif num3>num1 and num3>num2 and num1>num2:
+#     print(f'{num3} , {num1}, {num2}')
+# elif num3>num1 and num3>num2 and num2>num1:
+#     print(f'{num3} , {num2}, {num1}')
+
+# preço1 = float(input('Preço do Produto 1: '))
+# preço2 = float(input('Preço do Produto 2: '))
+# preço3 = float(input('Preço do Produto 3: '))
+
+# if preço1<preço2 and preço1<preço3:
+#     print('Comprar produto 1')
+# elif preço2<preço1 and preço2<preço3:
+#     print('Comprar produto 2')
+# else:
+#     print('Comprar produto 3')
+
+# num1 = int(input('Digite o num1: '))
+# num2 = int(input('Digite o num2: '))
+# num3 = int(input('Digite o num3: '))
+
+# if num1<num2 and num1<num3:
+#      print(f'Menor numero: {num1}')
+# elif num2<num1 and num2<num3:
+#      print(f'Menor numero: {num2}')
+# else:
+#      print(f'Menor numero: {num3}')
+
+# num1 = int(input('Digite o num1: '))
+# num2 = int(input('Digite o num2: '))
+# num3 = int(input('Digite o num3: '))
+
+# if num1>num2 and num1>num3:
+#     print(f'Maior numero: {num1}')
+# elif num2>num1 and num2>num3:
+#     print(f'Maior numero: {num2}')
+# else:
+#     print(f'Maior numero: {num3}')
+
+# nota1 = int(input('Digite a nota 1: '))
+# nota2 = int(input('Digite a nota 2: '))
+
+# if nota1 == 10 and nota2 == 10:
+#     print("Aprovado com Distinção")
+# elif (nota1+nota2)/2 >= 7:
+#     print('Aprovado')
+# else:
+#     print('Reprovado')
+
+# letra = str(input("Digite a letra: "))
+
+# if letra == 'a':
+#     print('Vogal')
+# elif letra == 'e':
+#     print('Vogal')
+# elif letra == 'i':
+#     print('Vogal')
+# elif letra == 'o':
+#     print('Vogal')
+# elif letra == 'u':
+#     print('Vogal')
+# else:
+#     print('Consoante')
+
+# letra = str(input('Digite a letra: '))
+
+# if letra == 'm':
+#     print('Masculino')
+# elif letra == 'f':
+#     print('Feminino')
+# elif letra == 'M':
+#     print('Masculino')
+# elif letra == 'F':
+#     print('Feminino')
+# else:
+#     print("Sexo inválido")
+
+# num1 = int(input('Digite o numero 1: '))
+
+# if num1 >= 0:
+#     print('positivo')
+# else:
+#     print('negativo')
+
+# num1 = int(input('Digite o numero 1: '))
+# num2 = int(input('Digite o numero 2: '))
+
+# if num1 > num2:
+#     print(f'{num1}')
+# elif num1 == num2:
+#     print('Numeros iguais')
+# else:
+#     print(f'{num2}')
+
+# nome = input('Digite seu nome: ')
+
+# match nome:
+#     case 'Emanuel':
+#         print(f'Seja bem vindo, {nome}')
+#     case 'Gabriele':
+#         print(f'Seja bem vinda, {nome}')
+
+
+# if not num1 < num2:
+#     print(f'{num1} é menor que {num2}')
+# else:
+#     print("expressão negada")
+
+
+# if num1 < num2 or num2 == num3:
+#     print(f'{num1} é menor que {num2}')
+    
+# if num1 < num2 and num2 < num3:
+#     print(f'{num3} é maior que {num2} e {num1}')
+    
+    
+# if num1 == num2:
+#     print(f'{num1} é igual a {num2}')
+    
+# elif num1 > num2:
+#     print(f'{num1} é menor que {num2}')
+
+# else:
+#     print(f'{num2} é maior que {num1}')
+
+# # print('Fim do programa')
