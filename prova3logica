@@ -1,0 +1,14 @@
+numero = int(input("Digite um numero: "))
+numeros = []
+
+while numero != 0:
+    numeros.append(numero)
+    numero = int(input("Digite um numero: "))
+tam_lista = len(numeros)   
+ 
+if numero == 0:
+    print(f"Foram digitados {tam_lista} numeros.")
+    soma = sum(numeros)
+    media = soma/tam_lista
+    print(f"A media dos numeros é: {media}")
+    
