@@ -1,0 +1,6 @@
+velocidade  = int(input("Qual a velocidade do carro? "))
+multa = 80
+if velocidade > 80:
+    multa = velocidade - multa
+    print(f"MULTADO POR VELOCIDADE\nVALOR DA MULTA: R${multa * 20}")
+    
