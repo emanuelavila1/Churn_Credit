@@ -1,6 +1,0 @@
-ntabuada = int(input("Digite o numero para exibir a tabuada: "))
-
-for i in range(10):
-    contador = 1 + i
-    tabuada = ntabuada * contador
-    print(f"{ntabuada} X {contador} = {tabuada}")
